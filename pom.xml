@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.ikram</groupId>
+  <artifactId>epi-ikram</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>13</source>
+          <target>13</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <packaging>pom</packaging>
+
+  <properties>
+    <maven.compiler.source>14</maven.compiler.source>
+    <maven.compiler.target>14</maven.compiler.target>
+  </properties>
+
+  <modules>
+      <module>chapter4-primitives</module>
+      <module>chapter5-arrays</module>
+      <module>chapter6-strings</module>
+      <module>chapter7-linkedlists</module>
+      <module>chapter8-stacks-and-queues</module>
+      <module>chapter9-binary-trees</module>
+      <module>chapter10-heaps</module>
+      <module>chapter11-searching</module>
+      <module>chapter12-hashtables</module>
+      <module>chapter13-sorting</module>
+      <module>chapter14-binary-search-trees</module>
+      <module>chapter15-recursion</module>
+      <module>chapter16-dynamic-programming</module>
+      <module>chapter17-greedy</module>
+      <module>chapter18-graphs</module>
+      <module>chapter19-parallel-computing</module>
+      <module>chapter20-design-problems</module>
+      <module>chapter21-language-questions</module>
+      <module>chapter22-ood</module>
+      <module>chapter23-common-tools</module>
+      <module>chapter24-honors</module>
+   </modules>
+
+
+</project>
